@@ -1,6 +1,7 @@
 ---
 theme: default
-background: pictures/AaltoUni.png
+background: https://raw.githubusercontent.com/obywan-afk/thesis-search/main/pictures/AaltoUni.png
+
 class: text-center
 highlighter: shiki
 lineNumbers: false
