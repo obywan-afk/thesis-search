@@ -32,7 +32,7 @@ jobs:
         run: nci
 
       - name: Build
-        run: nr build --base /thesis-search/
+        run: nr build --base /${{github.event.repository.name}}/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -52,4 +52,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
