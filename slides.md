@@ -1,6 +1,6 @@
 ---
 theme: default
-background: pictures/Aalto.jpg
+background: pictures/Aalto.png
 class: text-center
 highlighter: shiki
 lineNumbers: false
