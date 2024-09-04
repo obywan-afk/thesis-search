@@ -1,8 +1,11 @@
 {
+  "homepage": "https://obywanafk.github.io/thesis_search/",
   "name": "job_search",
   "type": "module",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "slidev build",
     "dev": "slidev --open",
     "export": "slidev export"
